@@ -55,7 +55,7 @@
       },
       "semanticColors": {
         "background": {
-          "base": "#ffffff",
+          "base": "#0d0d0d",
           "base--inverted": "#03044e",
           "action-primary": "#0F3E99",
           "action-secondary": "#eef3f7",
@@ -118,7 +118,7 @@
           "warning": "#ffb100",
           "warning--faded": "#fff6e0",
           "muted-1": "#727273",
-          "muted-2": "#979899",
+          "muted-2": "#97989",
           "muted-3": "#cacbcc",
           "muted-4": "#e3e4e6",
           "muted-5": "#f2f4f5"
