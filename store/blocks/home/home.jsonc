@@ -31,7 +31,7 @@
 
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Summer",
+      "text": "## Teste",
       "blockClass": "shelfTitle"
     }
   },
