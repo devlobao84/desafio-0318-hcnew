@@ -85,13 +85,8 @@
     "props": {
       "title": "Logo",
       "href": "/",
-<<<<<<< HEAD
-      "url": "assets/logotipo.svg",
-      "width": "180"
-=======
       "url": "assets/corebiz.svg",
       "width": "80"
->>>>>>> 008fcc31e66f82b06749e2edddd02d91c8cb6e0f
     }
   },
   "header-layout.mobile": {
