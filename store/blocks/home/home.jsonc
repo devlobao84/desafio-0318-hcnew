@@ -21,12 +21,8 @@
       "height": 720,
       "images": [
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-        },
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "image": "assets/banner-mapa-corebiz-br.png",
+          "mobileImage": "/assets/background-intro-mobile-min.png"
         }
       ]
     }
@@ -46,7 +42,7 @@
 
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Teste",
+      "text": "## Nossos produtos",
       "blockClass": "shelfTitle"
     }
   },
@@ -89,7 +85,7 @@
 
   "rich-text#question": {
     "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
+      "text": "**Testando a VTEX IO built using the VTEX platform.\nWant to know more?**",
       "blockClass": "question"
     }
   },
@@ -100,7 +96,19 @@
       "blockClass": "link"
     }
   }
-
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
