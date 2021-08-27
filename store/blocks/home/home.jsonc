@@ -1,9 +1,7 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#demo",
-      /* You can make references to blocks defined in other files.
-       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "flex-layout.row#principal",
       "__fold__.experimentalLazyAssets",
       "flex-layout.row#deals",
       "rich-text#shelf-title",
@@ -15,31 +13,36 @@
     ]
   },
 
-  "list-context.image-list#demo": {
-    "children": ["slider-layout#demo-images"],
+  "flex-layout.row#principal": {
     "props": {
-      "height": 720,
-      "images": [
-        {
-          "image": "assets/banner-mapa-corebiz-br.png",
-          "mobileImage": "/assets/background-intro-mobile-min.png"
-        }
-      ]
-    }
-  },
-  "slider-layout#demo-images": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "infinite": true,
-      "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel"
-    }
-  },
 
+      "blockClass": "bannerPrincipal"
+    },
+    "children": [
+      "image#bannerPrincipal",
+      "rich-text#bannerPrincipal",
+      "rich-text#bannerPrincipalAbaixo"
+    ]
+  },
+  "image#bannerPrincipal": {
+    "props": {
+      "src": "https://www.corebiz.ag/wp-content/uploads/2021/02/Banner-Mapa-Corebiz-BR.png",
+      "maxHeight": "100%",
+      "width": "100%"
+    }
+  },
+  "rich-text#bannerPrincipal": {
+    "props": {
+      "text": "## we are <br>global.",
+      "blockClass": "textoBanner"
+    }
+  },
+  "rich-text#bannerPrincipalAbaixo": {
+    "props": {
+      "text": "levamos um pouco da nossa<br> visão pelo mundo.",
+      "blockClass": "textoBanner2"
+    }
+  },
   "rich-text#shelf-title": {
     "props": {
       "text": "## Nossos produtos",
