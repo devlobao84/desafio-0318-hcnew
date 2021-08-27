@@ -17,8 +17,13 @@
 }
 
 .flexRowContent--menu-link {
+<<<<<<< HEAD
+  background-color: #03044e;
+
+=======
   background-color: #000000;
   color: #fff;
+>>>>>>> 008fcc31e66f82b06749e2edddd02d91c8cb6e0f
 }
 
 .flexRowContent--main-header {
@@ -28,7 +33,7 @@
 .flexRowContent--main-header-mobile {
   align-items: center;
   padding: 0.625rem 0.5rem;
-  background-color: #f0f0f0;
+  background-color: #212121;
 }
 
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {

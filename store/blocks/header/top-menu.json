@@ -12,11 +12,16 @@
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "internal",
-        "href": "#",
+        "type": "external",
+        "href": "https://www.corebiz.ag/pt/cases/",
         "noFollow": false,
+<<<<<<< HEAD
+        "tagTitle": "Shop",
+        "text": "Cases"
+=======
         "tagTitle": "contato",
         "text": "contato"
+>>>>>>> 008fcc31e66f82b06749e2edddd02d91c8cb6e0f
       }
     }
   },
@@ -35,9 +40,21 @@
         "type": "external",
         "href": "https://www.corebiz.ag/pt/",
         "noFollow": false,
+<<<<<<< HEAD
+        "tagTitle": "visit corebiz",
+        "text": "visit corebiz"
+=======
         "tagTitle": "visit corebiz.ag",
         "text": "visit corebiz.ag"
+>>>>>>> 008fcc31e66f82b06749e2edddd02d91c8cb6e0f
       }
     }
   }
 }
+
+
+
+
+
+
+
