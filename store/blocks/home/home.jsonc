@@ -18,7 +18,9 @@
       "blockClass": "bannerPrincipal"
     },
     "children": [
-      "image#bannerPrincipal"
+      "image#bannerPrincipal",
+      "rich-text#bannerPrincipal",
+      "rich-text#bannerPrincipalAbaixo"
     ]
   },
   "image#bannerPrincipal": {
@@ -28,7 +30,18 @@
       "width": "100%"
     }
   },
-
+  "rich-text#bannerPrincipal": {
+    "props": {
+      "text": "## we are <br>global.",
+      "blockClass": "textoBanner"
+    }
+  },
+  "rich-text#bannerPrincipalAbaixo": {
+    "props": {
+      "text": "levamos um pouco da nossa<br> visão pelo mundo.",
+      "blockClass": "textoBanner2"
+    }
+  },
   "rich-text#shelf-title": {
     "props": {
       "text": "## Teste",
