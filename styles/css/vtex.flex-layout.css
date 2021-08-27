@@ -97,6 +97,10 @@
 
 }
 
-.flexRow--bannerPrincipal {
+.flexRow--bannerPrincipal, .flexRow--ContainerClientes  {
   background-color: #000;
+}
+
+.flexRow--ContainerClientes {
+  padding-top: 10%;
 }

@@ -3,7 +3,7 @@
     "blocks": [
       "flex-layout.row#principal",
       "__fold__.experimentalLazyAssets",
-      "flex-layout.row#deals",
+      "flex-layout.row#Clientes",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "info-card#home",
@@ -41,6 +41,28 @@
     "props": {
       "text": "levamos um pouco da nossa<br> visão pelo mundo.",
       "blockClass": "textoBanner2"
+    }
+  },
+  "flex-layout.row#Clientes": {
+    "props": {
+      "blockClass": "ContainerClientes"
+    },
+    "children": [
+      "rich-text#bannersecundario",
+      "image#bannersecundario"
+    ]
+  },
+  "rich-text#bannersecundario": {
+    "props": {
+      "text": "alguns de nossos<br> principais clientes",
+      "blockClass": "ContainerClientesTexto"
+    }
+  },
+  "image#bannersecundario": {
+    "props": {
+      "src": "assets/clientesP.png",
+      "maxHeight": "100%",
+      "width": "100%"
     }
   },
   "rich-text#shelf-title": {
