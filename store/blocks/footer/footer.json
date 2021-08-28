@@ -29,8 +29,8 @@
     "props": {
       "socialNetworks": [
         {
-          "name": "Facebook",
-          "url": "https://www.facebook.com/vtexonline/"
+          "name": "Linkedin",
+          "url": "https://www.linkedin.com/in/jonaslobo/"
         },
         {
           "name": "Instagram",
@@ -109,11 +109,13 @@
   },
   "rich-text#footer-mobile": {
     "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
+      "text": "Desenvolvido pelo grupo 18 Hiring Coders 2021 | ® Todos os diretos reservados a Corebiz",
       "blockClass": "footer"
     }
   }
 }
+
+
 
 
 
