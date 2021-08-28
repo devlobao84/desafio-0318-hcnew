@@ -3,13 +3,11 @@
     "blocks": [
       "flex-layout.row#principal",
       "__fold__.experimentalLazyAssets",
-      "flex-layout.row#deals",
+      "flex-layout.row#Clientes",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
-      "newsletter"
+      "list-context.product-list"
     ]
   },
 
@@ -43,6 +41,28 @@
       "blockClass": "textoBanner2"
     }
   },
+  "flex-layout.row#Clientes": {
+    "props": {
+      "blockClass": "ContainerClientes"
+    },
+    "children": [
+      "rich-text#bannersecundario",
+      "image#bannersecundario"
+    ]
+  },
+  "rich-text#bannersecundario": {
+    "props": {
+      "text": "alguns de nossos<br> principais clientes",
+      "blockClass": "ContainerClientesTexto"
+    }
+  },
+  "image#bannersecundario": {
+    "props": {
+      "src": "assets/clientesP.png",
+      "maxHeight": "100%",
+      "width": "100%"
+    }
+  },
   "rich-text#shelf-title": {
     "props": {
       "text": "## Nossos produtos",
@@ -54,22 +74,16 @@
   },
   "list-context.product-list#demo1": {
     "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#demo-products"],
+    "children": ["slider-layout"],
     "props": {
       "orderBy": "OrderByTopSaleDESC"
     }
   },
-  "slider-layout#demo-products": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 5,
-        "tablet": 3,
-        "phone": 1
-      },
-      "infinite": true,
-      "fullWidth": false,
-      "blockClass": "shelf"
-    }
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-name",
+      "product-selling-price"
+    ]
   },
 
   "info-card#home": {
@@ -83,20 +97,6 @@
       "callToActionUrl": "/sale/d",
       "blockClass": "info-card-home",
       "textAlignment": "center"
-    }
-  },
-
-  "rich-text#question": {
-    "props": {
-      "text": "**Testando a VTEX IO built using the VTEX platform.\nWant to know more?**",
-      "blockClass": "question"
-    }
-  },
-
-  "rich-text#link": {
-    "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
-      "blockClass": "link"
     }
   }
 }
