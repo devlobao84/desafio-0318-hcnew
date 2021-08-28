@@ -5,8 +5,8 @@
       "__fold__.experimentalLazyAssets",
       "flex-layout.row#Clientes",
       "rich-text#shelf-title",
+      "flex-layout.row#produtos",
       "flex-layout.row#shelf",
-      "info-card#home",
       "list-context.product-list"
     ]
   },
@@ -24,11 +24,19 @@
   },
   "image#bannerPrincipal": {
     "props": {
-      "src": "https://www.corebiz.ag/wp-content/uploads/2021/02/Banner-Mapa-Corebiz-BR.png",
+      "src": "assets/banner-mapa-corebiz-br.png",
       "maxHeight": "100%",
       "width": "100%"
     }
   },
+  "image#bannerPrincipal02": {
+    "props": {
+      "src": "assets/clientes-corebiz.jpg",
+      "maxHeight": "100%",
+      "width": "100%"
+    }
+  },
+
   "rich-text#bannerPrincipal": {
     "props": {
       "text": "## we are <br>global.",
@@ -63,12 +71,25 @@
       "width": "100%"
     }
   },
+  "flex-layout.row#produtos": {
+    "props": {
+      "src": "asssets/background03.png",
+      "maxHeight": "100%",
+      "width": "100%"
+    },
+    "children": [
+      "rich-text#shelf-title"
+    ]
+  },
   "rich-text#shelf-title": {
     "props": {
       "text": "## Nossos produtos",
       "blockClass": "shelfTitle"
     }
   },
+
+  /* Produtos */
+  
   "flex-layout.row#shelf": {
     "children": ["list-context.product-list#demo1"]
   },
@@ -82,26 +103,14 @@
   "product-summary.shelf": {
     "children": [
       "product-summary-name",
-      "product-selling-price"
+      "product-summary-description",
+      "product-summary-image",
+      "product-summary-price",
+      "product-summary-sku-selector",
+      "product-summary-buy-button"
     ]
-  },
-
-  "info-card#home": {
-    "props": {
-      "id": "info-card-home",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
-      "textAlignment": "center"
-    }
   }
 }
-
-
 
 
 

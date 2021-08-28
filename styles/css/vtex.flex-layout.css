@@ -104,3 +104,24 @@
 .flexRow--ContainerClientes {
   padding-top: 10%;
 }
+.flexRow--ContainerClientesSobre {
+  background-color: #f5f5f5;
+}
+.flexRow--TextosSobre {
+  position: absolute;
+  width: 15% !important;
+  left: 15%;
+  margin-top: 10%;
+}
+.flexRowContent--TextosSobre {
+  width: 80vw;
+}
+.flexRow--TextosSobre2 {
+  position: absolute;
+  width: 15% !important;
+  left: 15%;
+  margin-top: 30%;
+}
+.flexRowContent--TextosSobre2 {
+  width: 53vw;
+}

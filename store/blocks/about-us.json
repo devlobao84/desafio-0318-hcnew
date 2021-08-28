@@ -2,10 +2,82 @@
   "store.custom#about-us": {
     "blocks": [
       "flex-layout.row#about-us",
-      "video#about-us"
+      "flex-layout.row#ClientesSobre"
     ]
   },
-
+  "flex-layout.row#ClientesSobre": {
+    "props": {
+      "blockClass": "ContainerClientesSobre"
+    },
+    "children": [
+      "rich-text#bannersecundarioSobre",
+      "image#bannersecundarioSobre",
+      "flex-layout.row#textSobre1",
+      "flex-layout.row#textSobre2"
+    ]
+  },
+  "rich-text#bannersecundarioSobre": {
+    "props": {
+      "text": "corebiz worldwide.",
+      "blockClass": "ContainerClientesTextoSobre"
+    }
+  },
+  "image#bannersecundarioSobre": {
+    "props": {
+      "src": "https://www.corebiz.ag/wp-content/themes/corebiz-global/assets/images/worldwide.png",
+      "maxHeight": "100%",
+      "width": "100%"
+    }
+  },
+  "flex-layout.row#textSobre1": {
+    "children": [
+      "rich-text#brasil",
+      "rich-text#Argentina",
+      "rich-text#México"
+    ],
+    "props": {
+      "blockClass": "TextosSobre"
+    }
+  },
+  "flex-layout.row#textSobre2": {
+    "children": [
+      "rich-text#Chile",
+      "rich-text#España"
+    ],
+    "props": {
+      "blockClass": "TextosSobre2"
+    }
+  },
+  "rich-text#brasil": {
+    "props": {
+      "blockClass": "TextoSobre",
+      "text": "##### Brasil<br><br>brasil@corebiz.ag<br><br><br>Avenida Andrômeda, 2000.<br> Bloco 6 e 8 Alphaville SP"
+    }
+  },
+  "rich-text#Argentina": {
+    "props": {
+      "blockClass": "TextoSobre",
+      "text": "##### Argentina<br><br>argentina@corebiz.ag<br><br><br>Soler 5518, 3 Piso C1425BYF<br> Palermo Hollywood CABA"
+    }
+  },
+  "rich-text#México": {
+    "props": {
+      "blockClass": "TextoSobre",
+      "text": "##### México<br><br>mexico@corebiz.ag<br><br><br>Blvd. Miguel de Cervantes Saavedra 169,<br>Granada, Miguel Hidalgo,<br> 11520 Ciudad de México, CDMX"
+    }
+  },
+  "rich-text#Chile": {
+    "props": {
+      "blockClass": "TextoSobre",
+      "text": "##### Chile<br><br>chile@corebiz.ag<br><br><br>Roberto del Río 1137,<br> Providencia."
+    }
+  },
+  "rich-text#España": {
+    "props": {
+      "blockClass": "TextoSobre",
+      "text": "##### España<br><br>esp@corebiz.ag<br><br><br>Avenida de Brasil, 29 -<br> Oficinas. 28020 Madrid."
+    }
+  },
   "flex-layout.row#about-us": {
     "children": [
       "image#mobile-phone",
@@ -40,13 +112,7 @@
       "blockClass": "storePrint"
     }
   },
-  "video#about-us": {
-    "props": {
-      "src": "https://www.youtube.com/embed/JgkrlaF52WQ",
-      "width": "100%",
-      "height": "100%"
-    }
-  },
+  
   "rich-text#about-us": {
     "props": {
       "text": "**Optimized store framework** \n Free your front-end with our React + Node store framework. Improve usability and SEO, while driving more conversion with modular components, single page applications, and a ready-for-PWA structure. \n **Multi-currency and language** \n Go international with multiple storefronts to support different languages and easily manage local currencies and payment conditions. \n **Serverless development platform** \n Reduce loading time, improve usability, and make the best out of SEO. Developing scalable components with a comprehensive, easy-to-use toolset, you can build stores faster than ever.",
