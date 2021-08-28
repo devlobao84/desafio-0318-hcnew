@@ -113,10 +113,10 @@
   font-size: 1.5rem;
   color: #fff;
 }
-.container--ContainerClientesTexto {
+.container--ContainerClientesTexto, .container--ContainerClientesTextoSobre {
   position: relative;
 }
-.paragraph--ContainerClientesTexto {
+.paragraph--ContainerClientesTexto, .paragraph--ContainerClientesTextoSobre {
   width: 80vw;
   color: #fff;
   font-size: 3rem;
@@ -125,4 +125,19 @@
 .wrapper--ContainerClientesTexto {
   position: absolute;
   top: -30%;
+}
+.wrapper--ContainerClientesTextoSobre {
+  position: absolute;
+}
+.paragraph--ContainerClientesTextoSobre {
+  color: #000;
+}
+.headingLevel5--TextoSobre {
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+}
+.link--TextoSobre {
+  text-decoration: none;
+  color: #000;
 }
