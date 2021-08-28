@@ -17,28 +17,31 @@
 }
 
 .flexRowContent--menu-link {
-  background-color: #03044e;
+  background-color: #000000;
   color: #fff;
+
 }
 
 .flexRowContent--main-header {
-  background-color: #f0f0f0;
+  background-color: #0d0d0d;
 }
 
 .flexRowContent--main-header-mobile {
   align-items: center;
   padding: 0.625rem 0.5rem;
-  background-color: #f0f0f0;
+  background-color: #212121;
 }
 
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
-  color: #ffffff;
+  color: #fff;
   font-size: 14px;
+  font-family: "Circular Std Book", sans-serif;
 }
 
 .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
-  color: #727273;
+  color: #fff;
   font-size: 14px;
+  font-family: "Circular Std Book", sans-serif;
 }
 .flexRow--deals {
   background-color: #a7afbd;
@@ -91,4 +94,13 @@
 
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
+
+}
+
+.flexRow--bannerPrincipal, .flexRow--ContainerClientes  {
+  background-color: #000;
+}
+
+.flexRow--ContainerClientes {
+  padding-top: 10%;
 }

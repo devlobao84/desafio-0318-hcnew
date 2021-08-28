@@ -1,8 +1,8 @@
 {
   "vtex.menu@2.x:menu#websites": {
     "children": [
-      "menu-item#shop",
-      "menu-item#about-us"
+      "menu-item#about-us",
+      "menu-item#shop"
     ]
   },
   "menu-item#shop": {
@@ -12,11 +12,12 @@
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "internal",
-        "href": "#",
+        "type": "external",
+        "href": "https://www.corebiz.ag/pt/cases/",
         "noFollow": false,
-        "tagTitle": "Shop",
-        "text": "Shop"
+        "tagTitle": "contato",
+        "text": "contato"
+
       }
     }
   },
@@ -33,11 +34,19 @@
       "highlight": false,
       "itemProps": {
         "type": "external",
-        "href": "http://vtex.com",
+        "href": "https://www.corebiz.ag/pt/",
         "noFollow": false,
-        "tagTitle": "visit vtex.com",
-        "text": "visit vtex.com"
+        "tagTitle": "visit corebiz.ag",
+        "text": "visit corebiz.ag"
+
       }
     }
   }
 }
+
+
+
+
+
+
+

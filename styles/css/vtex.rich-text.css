@@ -88,3 +88,41 @@
     line-height: 1.3em;
   }
 }
+
+.container--textoBanner {
+  position: absolute;
+  left: 0;
+  display: flex;
+  height: 60vh;
+  align-items: center;
+  padding-left: 10%;
+}
+.heading--textoBanner {
+  font-size: 7rem;
+  color: #fff;
+}
+.container--textoBanner2 {
+  position: absolute;
+  left: 0;
+  display: flex;
+  height: 110vh;
+  align-items: center;
+  padding-left: 10%;
+}
+.paragraph--textoBanner2, .paragraph--ContainerClientesTexto {
+  font-size: 1.5rem;
+  color: #fff;
+}
+.container--ContainerClientesTexto {
+  position: relative;
+}
+.paragraph--ContainerClientesTexto {
+  width: 80vw;
+  color: #fff;
+  font-size: 3rem;
+  padding-left: 40px;
+}
+.wrapper--ContainerClientesTexto {
+  position: absolute;
+  top: -30%;
+}

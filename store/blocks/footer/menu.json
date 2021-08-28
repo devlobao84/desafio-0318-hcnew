@@ -90,7 +90,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/smartphones",
+        "href": "#",
         "noFollow": true,
         "tagTitle": "Smartphones",
         "text": "Smartphones"
@@ -106,7 +106,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/videogames",
+        "href": "#",
         "noFollow": true,
         "tagTitle": "Videogames",
         "text": "Videogames"
@@ -122,7 +122,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/tvs",
+        "href": "#",
         "noFollow": true,
         "tagTitle": "TVs",
         "text": "TVs"
@@ -149,7 +149,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/bags/d",
+        "href": "#",
         "noFollow": true,
         "tagTitle": "Bags",
         "text": "Bags"
@@ -165,7 +165,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/bags/backpacks",
+        "href": "#",
         "noFollow": true,
         "tagTitle": "Backpacks",
         "text": "Backpacks"
@@ -181,7 +181,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/bags/necessaire",
+        "href": "#",
         "noFollow": true,
         "tagTitle": "Necessaire",
         "text": "Necessaire"
@@ -222,7 +222,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/d",
+        "href": "#",
         "noFollow": true,
         "tagTitle": "Clothing",
         "text": "Clothing"
@@ -303,7 +303,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/d",
+        "href": "#",
         "noFollow": true,
         "tagTitle": "Clothing",
         "text": "Clothing"
@@ -319,7 +319,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/shorts",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "Shorts",
         "text": "Shorts"
@@ -335,7 +335,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/tank-tops",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "Tank tops",
         "text": "Tank tops"
@@ -351,7 +351,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/shirts",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "Shirts",
         "text": "Shirts"
@@ -367,7 +367,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/sweatshirt",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "Sweatshirt",
         "text": "Sweatshirt"
@@ -383,7 +383,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/cropped",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "Cropped",
         "text": "Cropped"

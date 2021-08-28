@@ -8,7 +8,6 @@
   "header-layout.desktop": {
     "children": [
       "flex-layout.row#1-desktop",
-      "flex-layout.row#2-desktop",
       "flex-layout.row#3-desktop",
       "sticky-layout#4-desktop"
     ]
@@ -21,17 +20,6 @@
     }
   },
 
-  "flex-layout.row#2-desktop": {
-    "children": ["notification.bar#home"],
-    "props": {
-      "fullWidth": "true"
-    }
-  },
-  "notification.bar#home": {
-    "props": {
-      "content": "SELECTED ITEMS ON SALE! CHECK IT OUT!"
-    }
-  },
   "flex-layout.row#3-desktop": {
     "props": {
       "blockClass": "menu-link",
@@ -68,13 +56,18 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#category-menu",
       "flex-layout.col#spacer",
+      "flex-layout.col#category-menu",
       "search-bar",
       "locale-switcher",
       "login",
       "minicart.v2"
     ]
+  },
+  "search-bar": {
+    "props": {
+      "blockClass": "busca"
+    }
   },
   "flex-layout.col#logo-desktop": {
     "props": {
@@ -92,8 +85,8 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
-      "width": "180"
+      "url": "assets/corebiz.svg",
+      "width": "150"
     }
   },
   "header-layout.mobile": {
@@ -124,7 +117,6 @@
   "menu#drawer": {
     "children": [
       "menu-item#category-apparel",
-      "menu-item#category-home",
       "menu-item#more"
     ],
     "props": {
@@ -136,7 +128,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "url": "assets/corebiz.svg",
       "width": "70"
     }
   }

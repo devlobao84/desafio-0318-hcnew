@@ -29,20 +29,17 @@
     "props": {
       "socialNetworks": [
         {
-          "name": "Facebook",
-          "url": "https://www.facebook.com/vtexonline/"
-        },
-        {
           "name": "Instagram",
-          "url": "https://www.instagram.com/vtextruecloud/"
+          "url": "https://www.instagram.com/corebizag/"
         },
+
         {
-          "name": "Twitter",
-          "url": "https://twitter.com/vtexonline"
-        },
+          "name": "Linkedin",
+          "url": "https://www.linkedin.com/company/corebiz-brasil/"
+          },
         {
-          "name": "Youtube",
-          "url": "https://www.youtube.com/user/VTEXTV"
+          "name": "Facebook",
+          "url": "https://www.facebook.com/corebiz.ag"
         }
       ]
     }
@@ -56,7 +53,8 @@
   },
   "accepted-payment-methods": {
     "props": {
-      "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
+      "paymentMethods": ["MasterCard", "Visa", "Diners Club"],
+      "textPosition": "CENTER"
     }
   },
 
@@ -68,7 +66,8 @@
   },
   "rich-text#footer": {
     "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
+      "text": "Desenvolvido pelo grupo 18 Hiring Coders 2021 | © Copyright -  Todos os diretos reservados a Corebiz",
+      "textPosition": "CENTER",
       "blockClass": "footer"
     }
   },
@@ -109,8 +108,19 @@
   },
   "rich-text#footer-mobile": {
     "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
+      "text": "Desenvolvido pelo grupo 18 Hiring Coders 2021 | ® Todos os diretos reservados a Corebiz",
+      "textPosition": "CENTER",
       "blockClass": "footer"
     }
   }
 }
+
+
+
+
+
+
+
+
+
+
