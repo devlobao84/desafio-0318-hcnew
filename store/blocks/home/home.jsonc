@@ -7,7 +7,7 @@
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "info-card#home",
-      "newsletter"
+      "list-context.product-list"
     ]
   },
 
@@ -74,22 +74,17 @@
   },
   "list-context.product-list#demo1": {
     "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#demo-products"],
+    "children": ["slider-layout"],
     "props": {
       "orderBy": "OrderByTopSaleDESC"
     }
   },
-  "slider-layout#demo-products": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 5,
-        "tablet": 3,
-        "phone": 1
-      },
-      "infinite": true,
-      "fullWidth": false,
-      "blockClass": "shelf"
-    }
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-name",
+      "product-selling-price"
+    ]
+    
   },
 
   "info-card#home": {
