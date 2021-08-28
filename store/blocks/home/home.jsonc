@@ -5,8 +5,8 @@
       "__fold__.experimentalLazyAssets",
       "flex-layout.row#Clientes",
       "rich-text#shelf-title",
+      "flex-layout.row#produtos",
       "flex-layout.row#shelf",
-      "info-card#home",
       "list-context.product-list"
     ]
   },
@@ -71,12 +71,25 @@
       "width": "100%"
     }
   },
+  "flex-layout.row#produtos": {
+    "props": {
+      "src": "asssets/background03.png",
+      "maxHeight": "100%",
+      "width": "100%"
+    },
+    "children": [
+      "rich-text#shelf-title"
+    ]
+  },
   "rich-text#shelf-title": {
     "props": {
       "text": "## Nossos produtos",
       "blockClass": "shelfTitle"
     }
   },
+
+  /* Produtos */
+  
   "flex-layout.row#shelf": {
     "children": ["list-context.product-list#demo1"]
   },
@@ -90,38 +103,23 @@
   "product-summary.shelf": {
     "children": [
       "product-summary-name",
-      "product-selling-price"
+      "product-summary-description",
+      "product-summary-image",
+      "product-summary-price",
+      "product-summary-sku-selector",
+      "product-summary-buy-button"
     ]
-  },
-  "info-card#home": {
-    "props": {
-      "id": "info-card-home",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "src": "assets/banner-mapa-corebiz-br.png",
-      "maxHeight": "100%",
-      "width": "100%",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
-      "textAlignment": "center"
-    }
-
-  },
-  "rich-text#question": {
-    "props": {
-      "text": "**Testando a VTEX IO built using the VTEX platform.\nWant to know more?**",
-      "blockClass": "question"
-    }
-  },
-  "rich-text#link": {
-    "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
-      "blockClass": "link"
-    }
   }
 }
+
+
+
+
+
+
+
+
+
 
 
 
