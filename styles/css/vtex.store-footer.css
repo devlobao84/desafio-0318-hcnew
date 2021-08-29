@@ -1,11 +1,16 @@
 .row--menu-row {
   padding-right: 24px;
+  color: #fff;
 }
 
 .row--menu-row .rowContainer {
   align-items: flex-start;
 }
 
-.row--payment-methods {
-  padding-top: 16px;
+.footer-layout.desktop {
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 17.8rem;
+  margin-left: 8.3%;
 }

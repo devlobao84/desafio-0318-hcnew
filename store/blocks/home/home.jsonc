@@ -6,7 +6,6 @@
       "flex-layout.row#Clientes",
       "rich-text#shelf-title",
       "flex-layout.row#produtos",
-      "flex-layout.row#shelf",
       "list-context.product-list"
     ]
   },
@@ -89,10 +88,7 @@
   },
 
   /* Produtos */
-  
-  "flex-layout.row#shelf": {
-    "children": ["list-context.product-list#demo1"]
-  },
+
   "list-context.product-list#demo1": {
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout"],
