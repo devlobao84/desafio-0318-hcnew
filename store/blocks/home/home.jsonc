@@ -7,8 +7,16 @@
       "flex-layout.row#afterProduct",
       "flex-layout.row#produtos",
       "flex-layout.row#shelf",
+      "flex-layout.row#formulario",
       "list-context.product-list"
     ]
+  },
+
+  "flex-layout.row#formulario": {
+    "children": [
+      "HelloWorld"
+    ]
+
   },
 
   "flex-layout.row#principal": {
