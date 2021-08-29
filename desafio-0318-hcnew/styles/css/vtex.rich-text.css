@@ -1,0 +1,168 @@
+.container--deals {
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+}
+
+.container--shelfTitle {
+  color: #727273;
+  justify-content: center;
+  text-align: center;
+}
+
+.headingLevel2--shelfTitle {
+  font-weight: 200;
+}
+
+.container--deals .paragraph {
+  margin: 0;
+}
+
+.container--link {
+  justify-content: center;
+}
+
+.container--question {
+  justify-content: center;
+}
+
+.container--question .paragraph {
+  text-align: center;
+  max-width: 540px;
+  margin: 0 16px;
+  padding-top: 120px;
+  color: #03034E;
+}
+
+.container--question .strong {
+  font-size: 32px;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.container--link .paragraph {
+  text-align: center;
+  max-width: 540px;
+  padding-top: 36px;
+  padding-bottom: 84px;
+  color: #03034E;
+}
+
+.container--link .strong {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container--link .link {
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 300;
+  color: #03034E;
+}
+
+.container--title {
+  color: #03034E;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 640px) {
+  .container--question .strong {
+    font-size: 40px;
+    line-height: 3rem;
+  }
+
+  .container--about {
+    max-width: 85%;
+  }
+
+  .container--title {
+    color: #03034E;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 60%;
+  }
+
+  .container--title .paragraph {
+    line-height: 1.3em;
+  }
+}
+
+.container--textoBanner {
+  position: absolute;
+  left: 0;
+  display: flex;
+  height: 60vh;
+  align-items: center;
+  padding-left: 10%;
+}
+.heading--textoBanner {
+  font-size: 7rem;
+  color: #fff;
+}
+.container--textoBanner2 {
+  position: absolute;
+  left: 0;
+  display: flex;
+  height: 110vh;
+  align-items: center;
+  padding-left: 10%;
+}
+.paragraph--textoBanner2, .paragraph--ContainerClientesTexto {
+  font-size: 1.5rem;
+  color: #fff;
+}
+.container--ContainerClientesTexto, .container--ContainerClientesTextoSobre {
+  position: relative;
+}
+.paragraph--ContainerClientesTexto, .paragraph--ContainerClientesTextoSobre {
+  width: 80vw;
+  color: #fff;
+  font-size: 3rem;
+  padding-left: 12%;
+}
+
+.Midia {
+  margin-top: 30%;
+  width: 80vw;
+  color: #fff;
+  font-size: 3rem;
+  padding-left: 12%;
+
+}
+
+.wrapper--ContainerClientesTexto {
+  position: absolute;
+  top: -30%;
+}
+.wrapper--ContainerClientesTextoSobre {
+  position: absolute;
+}
+.paragraph--ContainerClientesTextoSobre {
+  color: #000;
+}
+.headingLevel5--TextoSobre {
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+}
+.link--TextoSobre {
+  text-decoration: none;
+  color: #000;
+}
+
+.heading--titleAboutUs {
+  color: #fff;
+  margin-left: 5%;
+  font-size: 72px;
+}
+.paragraph--about {
+  color: #fff;
+  margin-left: 7%;
+  font-size: 20px;
+}
+.wrapper--titleAboutUs, .wrapper--about {
+  width: 500px;
+}
+

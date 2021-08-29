@@ -1,0 +1,52 @@
+{
+  "vtex.menu@2.x:menu#websites": {
+    "children": [
+      "menu-item#about-us",
+      "menu-item#shop"
+    ]
+  },
+  "menu-item#shop": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.corebiz.ag/pt/cases/",
+        "noFollow": false,
+        "tagTitle": "contato",
+        "text": "contato"
+
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#institutional": {
+    "children": [
+      "menu-item#vtex-website"
+    ]
+  },
+  "menu-item#vtex-website": {
+    "props": {
+      "id": "menu-item-vtex-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.corebiz.ag/pt/",
+        "noFollow": false,
+        "tagTitle": "visit corebiz.ag",
+        "text": "visit corebiz.ag"
+
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
