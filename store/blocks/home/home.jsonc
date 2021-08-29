@@ -7,20 +7,9 @@
       "flex-layout.row#afterProduct",
       "flex-layout.row#produtos",
       "flex-layout.row#shelf",
-      "flex-layout.row#formulario",
       "list-context.product-list"
     ]
   },
-
-  /* teste */  
-
-  "flex-layout.row#formulario": {
-    "children": [
-      "HelloWorld"
-    ]
-
-  },
-
   "flex-layout.row#principal": {
     "props": {
 
@@ -124,7 +113,6 @@
   },
 
   /* Produtos */
-
   "flex-layout.row#shelf": {
     "children": ["list-context.product-list#demo1"]
   },
