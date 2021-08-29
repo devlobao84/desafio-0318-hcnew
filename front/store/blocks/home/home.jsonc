@@ -14,7 +14,7 @@
 
   "flex-layout.row#formulario": {
     "children": [
-      "Formulario"
+      "formulario"
     ]
 
   },
