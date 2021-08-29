@@ -4,7 +4,7 @@
       "flex-layout.row#principal",
       "__fold__.experimentalLazyAssets",
       "flex-layout.row#Clientes",
-      "rich-text#shelf-title",
+      "flex-layout.row#afterProduct",
       "flex-layout.row#produtos",
       "flex-layout.row#shelf",
       "list-context.product-list"
@@ -73,7 +73,7 @@
   },
   "flex-layout.row#produtos": {
     "props": {
-      "src": "asssets/background03.png",
+      "src": "assets/background03.png",
       "maxHeight": "100%",
       "width": "100%"
     },
@@ -84,12 +84,24 @@
   "rich-text#shelf-title": {
     "props": {
       "text": "## Nossos produtos",
-      "blockClass": "shelfTitle"
+      "marginTop": "100%",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
 
+  "flex-layout.row#afterProduct": {
+    "props": {
+      "blockClass": "ContainerClientes"
+    },
+    "children": [
+      "rich-text#bannerafterproduto",
+      "image#banneafterproduto"
+    ]
+  },
+
   /* Produtos */
-  
+
   "flex-layout.row#shelf": {
     "children": ["list-context.product-list#demo1"]
   },
@@ -109,7 +121,21 @@
       "product-summary-sku-selector",
       "product-summary-buy-button"
     ]
+  },
+  "rich-text#bannerafterproduto": {
+    "props": {
+      "text": "corebiz na mídia",
+      "blockClass": "ContainerClientesTexto"
+    }
+  },
+  "image#banneafterproduto": {
+    "props": {
+      "src": "assets/banner-after-product.jpg",
+      "maxHeight": "100%",
+      "width": "100%"
+    }
   }
+
 }
 
 
