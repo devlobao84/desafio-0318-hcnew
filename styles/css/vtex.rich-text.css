@@ -120,7 +120,7 @@
   width: 80vw;
   color: #fff;
   font-size: 3rem;
-  padding-left: 40px;
+  padding-left: 12%;
 }
 .wrapper--ContainerClientesTexto {
   position: absolute;
@@ -141,3 +141,12 @@
   text-decoration: none;
   color: #000;
 }
+
+.heading {
+  color: white;
+
+}
+
+
+
+
