@@ -6,16 +6,11 @@
       "flex-layout.row#Clientes",
       "flex-layout.row#afterProduct",
       "flex-layout.row#produtos",
-<<<<<<< HEAD
-=======
       "flex-layout.row#shelf",
       "flex-layout.row#formulario",
->>>>>>> 1f5338c384e85361362a3e396ad730c6eba3f9f2
       "list-context.product-list"
     ]
   },
-
-  /* teste */  
 
   "flex-layout.row#formulario": {
     "children": [
@@ -128,12 +123,9 @@
 
   /* Produtos */
 
-<<<<<<< HEAD
-=======
   "flex-layout.row#shelf": {
     "children": ["list-context.product-list#demo1"]
   },
->>>>>>> 1f5338c384e85361362a3e396ad730c6eba3f9f2
   "list-context.product-list#demo1": {
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout"],
@@ -152,6 +144,7 @@
     ]
   }
 }
+
 
 
 
