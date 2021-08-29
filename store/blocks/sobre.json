@@ -98,24 +98,23 @@
 
   "rich-text#title-about-us": {
     "props": {
-      "text":
-      "# Create meaningful and relevant experiences.",
-      "blockClass": "title"
+      "text":  "# A corebiz",
+      "blockClass": "titleAboutUs"
     }
   },
 
   "image#mobile-phone": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+      "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/about-intro-image.jpg",
       "maxHeight": "",
       "maxWidth": "",
-      "blockClass": "storePrint"
+      "blockClass": "textAboutUs"
     }
   },
   
   "rich-text#about-us": {
     "props": {
-      "text": "**Optimized store framework** \n Free your front-end with our React + Node store framework. Improve usability and SEO, while driving more conversion with modular components, single page applications, and a ready-for-PWA structure. \n **Multi-currency and language** \n Go international with multiple storefronts to support different languages and easily manage local currencies and payment conditions. \n **Serverless development platform** \n Reduce loading time, improve usability, and make the best out of SEO. Developing scalable components with a comprehensive, easy-to-use toolset, you can build stores faster than ever.",
+      "text": "conheça um pouco de nossa história, nosso crescimento e nossa cultura.",
       "blockClass": "about"
     }
   }
