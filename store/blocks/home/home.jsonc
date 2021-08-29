@@ -121,7 +121,7 @@
     }
   },
 
-  /* Produtos */
+  /* Nossos serviços */
 
   "flex-layout.row#shelf": {
     "children": ["list-context.product-list#demo1"]
