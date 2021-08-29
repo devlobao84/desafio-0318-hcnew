@@ -12,11 +12,12 @@
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "internal",
-        "href": "#",
+        "type": "external",
+        "href": "https://www.corebiz.ag/pt/cases/",
         "noFollow": false,
         "tagTitle": "contato",
         "text": "contato"
+
       }
     }
   },
@@ -37,7 +38,15 @@
         "noFollow": false,
         "tagTitle": "visit corebiz.ag",
         "text": "visit corebiz.ag"
+
       }
     }
   }
 }
+
+
+
+
+
+
+

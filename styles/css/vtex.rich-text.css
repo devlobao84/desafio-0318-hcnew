@@ -75,6 +75,9 @@
 
   .container--about {
     max-width: 85%;
+    color: #fff;
+    font-size: 14px;
+    font-family: "Circular Std Book", sans-serif;
   }
 
   .container--title {
@@ -87,4 +90,63 @@
   .container--title .paragraph {
     line-height: 1.3em;
   }
+}
+
+.container--textoBanner {
+  position: absolute;
+  left: 0;
+  display: flex;
+  height: 60vh;
+  align-items: center;
+  padding-left: 10%;
+}
+.heading--textoBanner {
+  font-size: 7rem;
+  color: #fff;
+}
+.container--textoBanner2 {
+  position: absolute;
+  left: 0;
+  display: flex;
+  height: 110vh;
+  align-items: center;
+  padding-left: 10%;
+}
+.paragraph--textoBanner2, .paragraph--ContainerClientesTexto {
+  font-size: 1.5rem;
+  color: #fff;
+}
+.container--ContainerClientesTexto, .container--ContainerClientesTextoSobre {
+  position: relative;
+}
+.paragraph--ContainerClientesTexto, .paragraph--ContainerClientesTextoSobre {
+  width: 80vw;
+  color: #fff;
+  font-size: 3rem;
+  padding-left: 12%;
+}
+.wrapper--ContainerClientesTexto {
+  position: absolute;
+  top: -30%;
+}
+.wrapper--ContainerClientesTextoSobre {
+  position: absolute;
+}
+.paragraph--ContainerClientesTextoSobre {
+  color: #000;
+}
+.headingLevel5--TextoSobre {
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 20px;
+  background-color: #3f3f40;opacity:0.5;
+}
+.link--TextoSobre {
+  text-decoration: none;
+  color: #000;
+}
+
+.heading {
+  color: white;
 }

@@ -19,6 +19,7 @@
 .flexRowContent--menu-link {
   background-color: #000000;
   color: #fff;
+
 }
 
 .flexRowContent--main-header {
@@ -28,7 +29,7 @@
 .flexRowContent--main-header-mobile {
   align-items: center;
   padding: 0.625rem 0.5rem;
-  background-color: #f0f0f0;
+  background-color: #212121;
 }
 
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
@@ -93,4 +94,34 @@
 
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
+
+}
+
+.flexRow--bannerPrincipal, .flexRow--ContainerClientes  {
+  background-color: #000;
+}
+
+.flexRow--ContainerClientes {
+  padding-top: 10%;
+}
+.flexRow--ContainerClientesSobre {
+  background-color: #f5f5f5;
+}
+.flexRow--TextosSobre {
+  position: absolute;
+  width: 15% !important;
+  left: 15%;
+  margin-top: 10%;
+}
+.flexRowContent--TextosSobre {
+  width: 80vw;
+}
+.flexRow--TextosSobre2 {
+  position: absolute;
+  width: 15% !important;
+  left: 15%;
+  margin-top: 30%;
+}
+.flexRowContent--TextosSobre2 {
+  width: 53vw;
 }

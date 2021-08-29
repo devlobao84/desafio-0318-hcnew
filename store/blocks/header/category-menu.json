@@ -53,7 +53,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/clothing/",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "serviços",
         "text": "serviços"
@@ -68,7 +68,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/clothing/",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "cases",
         "text": "cases"
@@ -83,7 +83,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/accessories/",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "careers",
         "text": "careers"
@@ -98,14 +98,14 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/eyeglasses/",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "blog",
         "text": "blog"
       }
     }
   },
- 
+
   "menu-item#more": {
     "props": {
       "id": "menu-item-custom-sale",
@@ -150,7 +150,7 @@
     "children": [
       "menu-item#about-us",
       "menu-item#contact-us"
-    
+
     ]
   },
   "menu-item#about-us": {
@@ -177,7 +177,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/contact-us",
+        "href": "#",
         "noFollow": true,
         "tagTitle": "contato",
         "text": "contato"

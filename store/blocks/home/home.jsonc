@@ -1,106 +1,152 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#demo",
-      /* You can make references to blocks defined in other files.
-       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "flex-layout.row#principal",
       "__fold__.experimentalLazyAssets",
-      "flex-layout.row#deals",
-      "rich-text#shelf-title",
+      "flex-layout.row#Clientes",
+      "flex-layout.row#afterProduct",
+      "flex-layout.row#produtos",
       "flex-layout.row#shelf",
-      "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
-      "newsletter"
+      "list-context.product-list"
     ]
   },
 
-  "list-context.image-list#demo": {
-    "children": ["slider-layout#demo-images"],
+  "flex-layout.row#principal": {
     "props": {
-      "height": 720,
-      "images": [
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-        },
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-        }
-      ]
+
+      "blockClass": "bannerPrincipal"
+    },
+    "children": [
+      "image#bannerPrincipal",
+      "rich-text#bannerPrincipal",
+      "rich-text#bannerPrincipalAbaixo"
+    ]
+  },
+  "image#bannerPrincipal": {
+    "props": {
+      "src": "assets/banner-mapa-corebiz-br.png",
+      "maxHeight": "100%",
+      "width": "100%"
     }
   },
-  "slider-layout#demo-images": {
+  "image#bannerPrincipal02": {
     "props": {
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "infinite": true,
-      "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel"
+      "src": "assets/clientes-corebiz.jpg",
+      "maxHeight": "100%",
+      "width": "100%"
     }
   },
 
-  "rich-text#shelf-title": {
+  "rich-text#bannerPrincipal": {
     "props": {
-      "text": "## Summer",
-      "blockClass": "shelfTitle"
+      "text": "## we are <br>global.",
+      "blockClass": "textoBanner"
     }
   },
+  "rich-text#bannerPrincipalAbaixo": {
+    "props": {
+      "text": "levamos um pouco da nossa<br> visão pelo mundo.",
+      "blockClass": "textoBanner2"
+    }
+  },
+  "flex-layout.row#Clientes": {
+    "props": {
+      "blockClass": "ContainerClientes"
+    },
+    "children": [
+      "rich-text#bannersecundario",
+      "image#bannersecundario"
+    ]
+  },
+  "rich-text#bannersecundario": {
+    "props": {
+      "text": "alguns de nossos<br> principais clientes",
+      "blockClass": "ContainerClientesTexto"
+    }
+  },
+  "image#bannersecundario": {
+    "props": {
+      "src": "assets/clientesP.png",
+      "maxHeight": "100%",
+      "width": "100%"
+    }
+  },
+  "flex-layout.row#produtos": {
+    "props": {
+      "src": "assets/background03.png",
+      "maxHeight": "100%",
+      "width": "100%"
+    },
+    "children": [
+      "rich-text#shelf-title"
+    ]
+  },
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "## Nossos produtos",
+      "marginTop": "100%",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "flex-layout.row#afterProduct": {
+    "props": {
+      "blockClass": "ContainerClientes"
+    },
+    "children": [
+      "rich-text#bannerafterproduto",
+      "image#banneafterproduto"
+    ]
+  },
+
+  /* Produtos */
+
   "flex-layout.row#shelf": {
     "children": ["list-context.product-list#demo1"]
   },
   "list-context.product-list#demo1": {
     "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#demo-products"],
+    "children": ["slider-layout"],
     "props": {
       "orderBy": "OrderByTopSaleDESC"
     }
   },
-  "slider-layout#demo-products": {
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-name",
+      "product-summary-description",
+      "product-summary-image",
+      "product-summary-price",
+      "product-summary-sku-selector",
+      "product-summary-buy-button"
+    ]
+  },
+  "rich-text#bannerafterproduto": {
     "props": {
-      "itemsPerPage": {
-        "desktop": 5,
-        "tablet": 3,
-        "phone": 1
-      },
-      "infinite": true,
-      "fullWidth": false,
-      "blockClass": "shelf"
+      "text": "corebiz na mídia",
+      "blockClass": "ContainerClientesTexto"
     }
   },
-
-  "info-card#home": {
+  "image#banneafterproduto": {
     "props": {
-      "id": "info-card-home",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
-      "textAlignment": "center"
-    }
-  },
-
-  "rich-text#question": {
-    "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
-      "blockClass": "question"
-    }
-  },
-
-  "rich-text#link": {
-    "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
-      "blockClass": "link"
+      "src": "assets/banner-after-product.jpg",
+      "maxHeight": "100%",
+      "width": "100%"
     }
   }
 
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
