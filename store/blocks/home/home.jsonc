@@ -83,13 +83,12 @@
   },
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Nossos produtos",
+      "text": "## Nossos serviços",
       "marginTop": "100%",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
     }
   },
-
   "flex-layout.row#afterProduct": {
     "props": {
       "blockClass": "ContainerClientes"
@@ -98,6 +97,20 @@
       "rich-text#bannerafterproduto",
       "image#banneafterproduto"
     ]
+  },
+  "rich-text#bannerafterproduto": {
+    "props": {
+      "text": "corebiz na mídia",
+      "blockClass":"Midia"
+
+    }
+  },
+  "image#banneafterproduto": {
+    "props": {
+      "src": "assets/banner-after-product.jpg",
+      "maxHeight": "100%",
+      "width": "100%"
+    }
   },
 
   /* Produtos */
@@ -121,22 +134,12 @@
       "product-summary-sku-selector",
       "product-summary-buy-button"
     ]
-  },
-  "rich-text#bannerafterproduto": {
-    "props": {
-      "text": "corebiz na mídia",
-      "blockClass": "ContainerClientesTexto"
-    }
-  },
-  "image#banneafterproduto": {
-    "props": {
-      "src": "assets/banner-after-product.jpg",
-      "maxHeight": "100%",
-      "width": "100%"
-    }
   }
-
 }
+
+
+
+
 
 
 

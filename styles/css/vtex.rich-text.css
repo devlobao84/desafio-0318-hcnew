@@ -122,6 +122,16 @@
   font-size: 3rem;
   padding-left: 12%;
 }
+
+.Midia {
+  margin-top: 30%;
+  width: 80vw;
+  color: #fff;
+  font-size: 3rem;
+  padding-left: 12%;
+
+}
+
 .wrapper--ContainerClientesTexto {
   position: absolute;
   top: -30%;
