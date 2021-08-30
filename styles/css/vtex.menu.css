@@ -1,0 +1,31 @@
+.menuItem--footer-languages,
+.menuItem--footer-languages-pt{
+  padding:0;
+  margin: 0;
+}
+
+.styledLinkContainer--footer-languages,
+.styledLinkContainer--footer-languages-pt{
+  padding: 0 10px 0 0;
+  margin: 0;
+  position: relative;
+}
+
+.styledLink--footer-languages{
+  font-size: 12px;
+}
+.styledLink--footer-languages-pt{ 
+  color: #fff;
+  font-size: 12px;
+}
+
+.styledLink--footer-languages-pt::before {
+  content:"\A";
+  width: 3px;
+  height:3px;
+  border-radius:50%;
+  background: #FFF; 
+  position: absolute;
+  top: 12px;
+  left: 5px;
+}
