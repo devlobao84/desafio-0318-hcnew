@@ -1,181 +1,115 @@
-{
-  "footer": {
-      "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
-  },
-  "footer-layout.desktop": {
-      "children": ["flex-layout.row#footer"]
-  },
-  "footer-layout.mobile": {
-      "children": ["flex-layout.row#footer"]
-  },
-  "flex-layout.row#footer": {
-      "props": {
-          "blockClass": "footer",
-          "horizontalAlign": "center",
-          "fullWidth": true,
-          "paddingTop": 6,
-          "paddingBottom": 6
-      },
-      "children": [
-          "flex-layout.col#countries",
-          "flex-layout.col#footer-logo"
-      ]
-  },
-  "flex-layout.col#countries": {
-      "props": {
-          "blockClass": "countries-container",
-          "fullWidth": true,
-          "width": "100%",
-          "textPosition": "CENTER",
-          "orientation": "vertical"
-      },
-      "children": ["flex-layout.row#countries"]
-  },
-  "flex-layout.row#countries": {
-      "props": {
-          "blockClass": "countries-container"
-      },
-      "children": [
-          "flex-layout.col#brasil",
-          "flex-layout.col#argentina",
-          "flex-layout.col#mexico",
-          "flex-layout.col#chile"
-      ]
-  },
 
+  {
+    "flex-layout.col#Brasil": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#brasil"
+    ]
+  },
   "flex-layout.col#brasil": {
-      "props": {
-          "horizontalAlign": "left",
-          "verticalAlign": "middle",
-          "preventVerticalStretch": true
-      },
-      "children": [
-          "flex-layout.row#country-brasil",
-          "flex-layout.row#address-brasil"
-      ]
+    "props": {
+        "horizontalAlign": "left",
+        "verticalAlign": "top",
+        "preventVerticalStretch": true
+    },
+    "children": [
+        "flex-layout.row#country-brasil"
+    ]
   },
   "flex-layout.row#country-brasil": {
-      "children": ["rich-text#brasil"]
+    "children": ["rich-text#brasil"]
   },
   "rich-text#brasil": {
-      "props": {
-          "text": "*Brasil*",
-          "blockClass": "footer-text"
-      }
-  },
-  "flex-layout.row#address-brasil": {
-      "children": ["rich-text#address-brasil"]
-  },
-  "rich-text#address-brasil": {
-      "props": {
-          "text": "Avenida Andrômeda, 2000.<br />Bloco 6 e 8 Alphaville SP<br />R. Ifigenia Maria de Oliveira,<br />3793 - Jr. Piratininga Franca SP",
-          "blockClass": "footer-address"
-      }
+    "props": {
+        "text": "**Brasil** <p>Avenida Andrômeda, 2000.<br />Bloco 6 e 8 Alphaville SP<br />R. Ifigenia Maria de Oliveira,<br />3793 - Jr. Piratininga Franca SP</p>",
+        "blockClass": "footer-text"
+    }
   },
 
+  
+  "flex-layout.col#Argentina": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#argentina"
+    ]
+  },
   "flex-layout.col#argentina": {
-      "props": {
-          "horizontalAlign": "left",
-          "verticalAlign": "top",
-          "preventVerticalStretch": true
-      },
-      "children": [
-          "flex-layout.row#country-argentina",
-          "flex-layout.row#address-argentina"
-      ]
+    "props": {
+        "horizontalAlign": "left",
+        "verticalAlign": "top",
+        "preventVerticalStretch": true
+    },
+    "children": [
+        "flex-layout.row#country-argentina"
+    ]
   },
   "flex-layout.row#country-argentina": {
-      "children": ["rich-text#argentina"]
+    "children": ["rich-text#argentina"]
   },
   "rich-text#argentina": {
-      "props": {
-          "text": "*Argentina*",
-          "blockClass": "footer-text"
-      }
-  },
-  "flex-layout.row#address-argentina": {
-      "children": ["rich-text#address-argentina"]
-  },
-  "rich-text#address-argentina": {
-      "props": {
-          "text": "Soler 5518, 3 Piso C1425BYF<br />Palermo Hollywood CABA",
-          "blockClass": "footer-address"
-      }
+    "props": {
+        "text": "**Argentina** <p>Soler 5518, 3 Piso C1425BYF<br />Palermo Hollywood CABA</p>",
+        "blockClass": "footer-text"
+    }
   },
 
-  "flex-layout.col#mexico": {
-      "props": {
-          "horizontalAlign": "left",
-          "verticalAlign": "middle",
-          "preventVerticalStretch": true
-      },
-      "children": [
-          "flex-layout.row#country-mexico",
-          "flex-layout.row#address-mexico"
-      ]
+  "flex-layout.col#Chile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#chile"
+    ]
   },
-  "flex-layout.row#country-mexico": {
-      "children": ["rich-text#mexico"]
-  },
-  "rich-text#mexico": {
-      "props": {
-          "text": "*México*",
-          "blockClass": "footer-text"
-      }
-  },
-  "flex-layout.row#address-mexico": {
-      "children": ["rich-text#address-mexico"]
-  },
-  "rich-text#address-mexico": {
-      "props": {
-          "text": "Blvd. Miguel de Cervantes<br />Saavedra 169, Granada, Miguel<br />Hidalgo, 11520 Ciudad de<br />México, CDMX",
-          "blockClass": "footer-address"
-      }
-  },
-
   "flex-layout.col#chile": {
-      "props": {
-          "horizontalAlign": "left",
-          "verticalAlign": "middle",
-          "preventVerticalStretch": true
-      },
-      "children": [
-          "flex-layout.row#country-chile",
-          "flex-layout.row#address-chile"
-      ]
+    "props": {
+        "horizontalAlign": "left",
+        "verticalAlign": "top",
+        "preventVerticalStretch": true
+    },
+    "children": [
+        "flex-layout.row#country-chile"
+    ]
   },
   "flex-layout.row#country-chile": {
-      "children": ["rich-text#chile"]
+    "children": ["rich-text#chile"]
   },
   "rich-text#chile": {
-      "props": {
-          "text": "*Chile*",
-          "blockClass": "footer-text"
-      }
-  },
-  "flex-layout.row#address-chile": {
-      "children": ["rich-text#address-chile"]
-  },
-  "rich-text#address-chile": {
-      "props": {
-          "text": "Roberto del Río 1137,<br/>Providencia. ",
-          "blockClass": "footer-address",
-          "textPosition": "CENTER"
-      }
+    "props": {
+        "text": "**Chile** <p>Roberto del Río 1137,<br/>Providencia</p>",
+        "blockClass": "footer-text"
+    }
   },
 
-  "flex-layout.col#footer-logo": {
-      "props": {
-          "blockClass": "footer-logo",
-          "verticalAlign": "middle",
-          "paddingLeft": 8
-      },
-      "children": ["image#footer-logo"]
+  "flex-layout.col#Mexico": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#mexico"
+    ]
   },
-  "image#footer-logo": {
-      "props": {
-          "maxWidth": 113,
-          "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 113 85.311'%3E%3Cg id='Logo_Core' data-name='Logo Core' transform='translate(0 -36.688)'%3E%3Cpath id='Path_6' d='M211.556,463.907a21.051,21.051,0,0,0-15.692,6.7c-4.273,4.42-6.409,10.535-6.409,18.27,0,7.809,2.136,14,6.483,18.491a21.329,21.329,0,0,0,15.913,6.778c5.6,0,10.093-1.547,13.482-4.568a22.47,22.47,0,0,0,6.7-10.314l16.8,6.115a38.128,38.128,0,0,1-12.819,18.491c-6.336,5.157-14.366,7.736-24.164,7.736-11.787,0-21.659-4.052-29.616-12.229s-11.935-18.344-11.935-30.5c0-12.3,3.9-22.469,11.788-30.5S199.695,446.3,211.409,446.3q15.029,0,24.532,7.736a35.341,35.341,0,0,1,12.3,18.639l-17.165,6.262a21.542,21.542,0,0,0-6.336-10.609C221.5,465.381,217.155,463.907,211.556,463.907Z' transform='translate(-170.3 -409.612)' fill='%23fff'%3E%3C/path%3E%3Cpath id='Path_5' d='M872.051,547.542A13.454,13.454,0,0,1,868,537.67a13.62,13.62,0,0,1,4.052-9.946,13.13,13.13,0,0,1,9.872-4.125,14.084,14.084,0,0,1,14.071,14.071,13.133,13.133,0,0,1-4.125,9.872,13.745,13.745,0,0,1-9.946,4.052A13.458,13.458,0,0,1,872.051,547.542Z' transform='translate(-782.996 -429.963)' fill='silver'%3E%3C/path%3E%3C/g%3E%3C/svg%3E"
-      }
+  "flex-layout.col#mexico": {
+    "props": {
+        "horizontalAlign": "left",
+        "verticalAlign": "top",
+        "preventVerticalStretch": true
+    },
+    "children": [
+        "flex-layout.row#country-mexico"
+    ]
+  },
+  "flex-layout.row#country-mexico": {
+    "children": ["rich-text#mexico"]
+  },
+  "rich-text#mexico": {
+    "props": {
+        "text": "**México** <p>Blvd. Miguel de Cervantes<br />Saavedra 169, Granada, Miguel<br />Hidalgo, 11520 Ciudad de<br />México, CDMX</p>",
+        "blockClass": "footer-text"
+    }
   }
 }
