@@ -125,3 +125,25 @@
 .flexRowContent--TextosSobre2 {
   width: 53vw;
 }
+
+/* =================================================================
+FOOTER
+*/
+
+.flexColChild--footer-copyright-languages{
+  margin-bottom: 2px;
+}
+.flexRow--footer-country{
+  padding: 120px 20px;
+}
+
+.flexRow--social-networks{
+  color: #FFF;
+  padding: 0 20px 120px 20px;
+}
+
+
+.flexRowContent--footer{
+  color: #FFF;
+  display: flex;
+}
