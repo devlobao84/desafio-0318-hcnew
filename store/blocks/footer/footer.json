@@ -5,123 +5,159 @@
   "footer-layout.desktop": {
     "children": [
       "flex-layout.row#footer-1-desktop",
-      "flex-layout.row#footer-2-desktop",
-      "flex-layout.row#footer-3-desktop"
+      "flex-layout.row#footer-2-desktop"
     ]
   },
   "flex-layout.row#footer-1-desktop": {
     "children": [
-      "vtex.menu@2.x:menu#Products",
-      "vtex.menu@2.x:menu#footer-clothing",
-      "vtex.menu@2.x:menu#footer-decoration",
-      "vtex.menu@2.x:menu#footer-bags",
-      "footer-spacer",
-      "social-networks"
+      "flex-layout.col#Brasil",
+      "flex-layout.col#Argentina",
+      "flex-layout.col#Mexico",
+      "flex-layout.col#Chile",
+      "flex-layout.col#LogoFooter" 
     ],
     "props": {
-      "blockClass": "menu-row",
-      "paddingTop": 6,
-      "paddingBottom": 3
+      "blockClass": "footer-country",
+      "paddingTop": 20,
+      "paddingBottom": 20
     }
   },
 
-  "social-networks": {
+  "flex-layout.col#LogoFooter": { 
+    "children": [
+      "image"
+    ],
+    "props": {
+      "verticalAlign": "middle"
+    }
+  },
+  "image": {
+    "props": {
+      "width": 100,
+      "src": "assets/corebiz-footer.svg"
+    }
+  },
+
+  "flex-layout.row#footer-2-desktop": {
+    "children": ["flex-layout.col#social-networks",  "flex-layout.col#copyright"],
+    "props": { 
+      "blockClass": "social-networks"
+    }
+  },
+
+  "flex-layout.col#social-networks": {
+    "children": ["rich-text#social-networks",  "social-networks"],
+    "props": { 
+      "blockClass": "social-networks"
+    }
+  },
+
+  "rich-text#social-networks": {
+    "props": {
+        "text": "Siga a gente", 
+      "blockClass": "social-networks-title" 
+    }
+  },
+
+  "social-networks": { 
     "props": {
       "socialNetworks": [
         {
           "name": "Instagram",
-          "url": "https://www.instagram.com/corebizag/"
+          "url": "https://www.instagram.com/corebizag"
         },
-
-        {
-          "name": "Linkedin",
-          "url": "https://www.linkedin.com/company/corebiz-brasil/"
-          },
         {
           "name": "Facebook",
-          "url": "https://www.facebook.com/corebiz.ag"
+          "url": "https://pt-br.facebook.com/corebiz.ag"
+        },
+        {
+          "name": "Linkedin",
+          "url": "https://www.linkedin.com/company/corebiz-brasil"
         }
       ]
     }
   },
 
-  "flex-layout.row#footer-2-desktop": {
-    "children": ["accepted-payment-methods"],
-    "props": {
-      "blockClass": "payment-methods"
-    }
-  },
-  "accepted-payment-methods": {
-    "props": {
-      "paymentMethods": ["MasterCard", "Visa", "Diners Club"],
-      "textPosition": "CENTER"
-    }
-  },
-
-  "flex-layout.row#footer-3-desktop": {
-    "children": ["rich-text#footer"],
-    "props": {
-      "blockClass": "credits"
-    }
-  },
-  "rich-text#footer": {
-    "props": {
-      "text": "Desenvolvido pelo grupo 18 Hiring Coders 2021 | © Copyright -  Todos os diretos reservados a Corebiz",
-      "textPosition": "CENTER",
-      "blockClass": "footer"
-    }
-  },
-
-  "footer-layout.mobile": {
+  "flex-layout.col#copyright": {
     "children": [
-      "flex-layout.row#1-footer-mobile",
-      "flex-layout.row#2-footer-mobile"
+      "flex-layout.col#copyright-languages",  
+      "rich-text#copyright"
     ]
   },
-  "flex-layout.row#2-footer-mobile": {
-    "children": ["flex-layout.col#footer-1-mobile"],
-    "props": {
-      "blockClass": "payment-methods",
-      "paddingTop": 4,
-      "paddingBottom": 4
-    }
-  },
-  "flex-layout.col#footer-1-mobile": {
+
+
+  "flex-layout.col#copyright-languages": {
     "children": [
-      "accepted-payment-methods",
-      "social-networks",
-      "rich-text#footer-mobile"
+      "vtex.menu@2.x:menu#Languages"
     ],
-    "props": {
-      "blockClass": "payment-methods",
-      "paddingTop": 4,
-      "paddingBottom": 4,
-      "rowGap": 4
+    "props":{
+      "blockClass": "footer-copyright-languages"
     }
   },
-  "flex-layout.row#1-footer-mobile": {
-    "props": {
-      "paddingTop": 4,
-      "paddingBottom": 4
+ 
+    "vtex.menu@2.x:menu#Languages": {
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": [
+        "menu-item#Pt",
+        "menu-item#En",
+        "menu-item#Es"
+      ]
     },
-    "children": ["vtex.menu@2.x:menu#footer-mobile"]
-  },
-  "rich-text#footer-mobile": {
+    "menu-item#Pt": {
+      "props": {
+        "id": "menu-item-pt",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "footer-languages-pt",
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Pt",
+          "text": "Pt"
+        }
+      }
+    },
+    "menu-item#En": {
+      "props": {
+        "id": "menu-item-en",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "footer-languages",
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "En",
+          "text": "En"
+        }
+      }
+    },
+    "menu-item#Es": {
+      "props": {
+        "id": "menu-item-es",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "footer-languages",
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Es",
+          "text": "Es"
+        }
+      }
+    },
+ 
+  "rich-text#copyright": {
     "props": {
-      "text": "Desenvolvido pelo grupo 18 Hiring Coders 2021 | ® Todos os diretos reservados a Corebiz",
-      "textPosition": "CENTER",
-      "blockClass": "footer"
+        "text": "direitos reservados. corebiz 202",
+        "blockClass": "footer-text"
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-

@@ -1,11 +1,29 @@
 .row--menu-row {
   padding-right: 24px;
+  color: #fff;
 }
 
 .row--menu-row .rowContainer {
   align-items: flex-start;
 }
 
+.footer-layout.desktop {
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 17.8rem;
+  margin-left: 8.3%;
+}
+
+.socialNetworkLink{
+  max-width: 25px; 
+}
+ 
+.socialNetworkImage{ 
+  max-width: 15px; 
+  -webkit-filter: brightness(2);
+  filter: brightness(2);
+}
 .row--payment-methods {
   padding-top: 16px;
 }
