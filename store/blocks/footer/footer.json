@@ -1,95 +1,163 @@
 {
   "footer": {
-      "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
   },
   "footer-layout.desktop": {
-      "children": ["flex-layout.row#footer", "flex-layout.row#footer-3-desktop"]
+    "children": [
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop"
+    ]
   },
-  "footer-layout.mobile": {
-      "children": ["flex-layout.row#footer"]
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "flex-layout.col#Brasil",
+      "flex-layout.col#Argentina",
+      "flex-layout.col#Mexico",
+      "flex-layout.col#Chile",
+      "flex-layout.col#LogoFooter" 
+    ],
+    "props": {
+      "blockClass": "footer-country",
+      "paddingTop": 20,
+      "paddingBottom": 20
+    }
   },
-  "flex-layout.row#footer": {
+
+  "flex-layout.col#LogoFooter": { 
+    "children": [
+      "image"
+    ],
+    "props": {
+      "verticalAlign": "middle"
+    }
+  },
+  "image": {
+    "props": {
+      "width": 100,
+      "src": "assets/corebiz-footer.svg"
+    }
+  },
+
+  "flex-layout.row#footer-2-desktop": {
+    "children": ["flex-layout.col#social-networks",  "flex-layout.col#copyright"],
+    "props": { 
+      "blockClass": "social-networks"
+    }
+  },
+
+  "flex-layout.col#social-networks": {
+    "children": ["rich-text#social-networks",  "social-networks"],
+    "props": { 
+      "blockClass": "social-networks"
+    }
+  },
+
+  "rich-text#social-networks": {
+    "props": {
+        "text": "Siga a gente", 
+      "blockClass": "social-networks-title" 
+    }
+  },
+
+  "social-networks": { 
+    "props": {
+      "socialNetworks": [
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/corebizag"
+        },
+        {
+          "name": "Facebook",
+          "url": "https://pt-br.facebook.com/corebiz.ag"
+        },
+        {
+          "name": "Linkedin",
+          "url": "https://www.linkedin.com/company/corebiz-brasil"
+        }
+      ]
+    }
+  },
+
+  "flex-layout.col#copyright": {
+    "children": [
+      "flex-layout.col#copyright-languages",  
+      "rich-text#copyright"
+    ]
+  },
+
+
+  "flex-layout.col#copyright-languages": {
+    "children": [
+      "vtex.menu@2.x:menu#Languages"
+    ],
+    "props":{
+      "blockClass": "footer-copyright-languages"
+    }
+  },
+ 
+    "vtex.menu@2.x:menu#Languages": {
       "props": {
-          "blockClass": "footer",
-          "horizontalAlign": "center",
-          "fullWidth": true,
-          "paddingTop": 6,
-          "paddingBottom": 6
+        "orientation": "horizontal"
       },
       "children": [
-          "flex-layout.col#social"
+        "menu-item#Pt",
+        "menu-item#En",
+        "menu-item#Es"
       ]
-  },
-"flex-layout.col#social": {
-  "props": {
-      "blockClass": "social-container",
-      "paddingLeft": 8,
-      "textPosition": "CENTER",
-      "preventVerticalStretch": true
-  },
-  "children": [
-      "flex-layout.row#follow-us",
-      "flex-layout.row#social-icons"
-  ]
-},
-"flex-layout.row#follow-us": {
-  "children": ["rich-text#follow-us"]
-},
-"rich-text#follow-us": {
-  "props": {
-      "text": "*Siga a gente*",
-      "blockClass": "footer-text"
+    },
+    "menu-item#Pt": {
+      "props": {
+        "id": "menu-item-pt",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "footer-languages-pt",
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Pt",
+          "text": "Pt"
+        }
+      }
+    },
+    "menu-item#En": {
+      "props": {
+        "id": "menu-item-en",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "footer-languages",
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "En",
+          "text": "En"
+        }
+      }
+    },
+    "menu-item#Es": {
+      "props": {
+        "id": "menu-item-es",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "footer-languages",
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Es",
+          "text": "Es"
+        }
+      }
+    },
+ 
+  "rich-text#copyright": {
+    "props": {
+        "text": "direitos reservados. corebiz 202",
+        "blockClass": "footer-text"
+    }
   }
-},
-
-"flex-layout.row#social-icons": {
-  "props": {
-      "blockClass": "footer-image-container",
-      "preventHorizontalStretch": true
-  },
-  "children": ["image#instagram", "image#facebook", "image#linkedin"]
-},
-"image#instagram": {
-  "props": {
-      "blockClass": "footer-image",
-      "maxHeight": 24,
-      "link": { "url": "https://www.instagram.com/corebizag/" },
-      "title": "Instagram"
-  }
-},
-
-"image#facebook": {
-  "props": {
-      "blockClass": "footer-image",
-      "maxHeight": 24,
-      "link": { "url": "https://pt-br.facebook.com/corebiz.ag/" },
-      "title": "Facebook"
-  }
-},
-
-"image#linkedin": {
-  "props": {
-      "blockClass": "footer-image",
-      "maxHeight": 24,
-      "link": {
-          "url": "https://www.linkedin.com/company/corebiz-brasil"
-      },
-      "title": "LinkedIn"
-  }
-},
-
-
-"flex-layout.row#footer-3-desktop": {
-  "children": ["rich-text#footer"],
-  "props": {
-    "blockClass": "credits"
-  }
-},
-"rich-text#footer": {
-  "props": {
-    "text": "Desenvolvido pelo grupo 18 Hiring Coders 2021 | © Copyright -  Todos os diretos reservados a Corebiz",
-    "textPosition": "CENTER",
-    "blockClass": "footer"
-  }
-}
 }
