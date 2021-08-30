@@ -10,6 +10,10 @@
       "list-context.product-list"
     ]
   },
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2014d4c19a5d7258ebe8b37cc17989d43f1e2dee
   "flex-layout.row#principal": {
     "props": {
 
@@ -112,7 +116,12 @@
     }
   },
 
+<<<<<<< HEAD
   /* Produtos */
+=======
+  /* Nossos serviços */
+
+>>>>>>> 2014d4c19a5d7258ebe8b37cc17989d43f1e2dee
   "flex-layout.row#shelf": {
     "children": ["list-context.product-list#demo1"]
   },
@@ -151,3 +160,7 @@
 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2014d4c19a5d7258ebe8b37cc17989d43f1e2dee

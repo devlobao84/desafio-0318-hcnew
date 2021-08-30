@@ -24,3 +24,6 @@
   -webkit-filter: brightness(2);
   filter: brightness(2);
 }
+.row--payment-methods {
+  padding-top: 16px;
+}
