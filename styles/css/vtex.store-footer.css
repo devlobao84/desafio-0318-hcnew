@@ -1,13 +1,12 @@
 .row--menu-row {
   padding-right: 24px;
-  color: #fff;
 }
 
 .row--menu-row .rowContainer {
   align-items: flex-start;
 }
 
-.footer-layout.desktop {
+.flexRowContent--footer {
   display: flex;
   -ms-flex-pack: justify;
   justify-content: space-between;

@@ -17,25 +17,25 @@
           "paddingBottom": 6
       },
       "children": [
-          "flex-layout.col#social"
+          "flex-layout.col#redes-social"
       ]
   },
-"flex-layout.col#social": {
+"flex-layout.col#redes-social": {
   "props": {
       "blockClass": "social-container",
       "paddingLeft": 8,
-      "textPosition": "CENTER",
+      "horizontalAlign": "left",
       "preventVerticalStretch": true
   },
   "children": [
-      "flex-layout.row#follow-us",
+      "flex-layout.row#siga",
       "flex-layout.row#social-icons"
   ]
 },
-"flex-layout.row#follow-us": {
-  "children": ["rich-text#follow-us"]
+"flex-layout.row#siga": {
+  "children": ["rich-text#siga"]
 },
-"rich-text#follow-us": {
+"rich-text#siga": {
   "props": {
       "text": "*Siga a gente*",
       "blockClass": "footer-text"

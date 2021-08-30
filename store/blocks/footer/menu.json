@@ -1,3 +1,4 @@
+
 {
   "footer": {
       "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
@@ -25,9 +26,8 @@
       "props": {
           "blockClass": "countries-container",
           "fullWidth": true,
-          "width": "100%",
-          "textPosition": "CENTER",
-          "orientation": "vertical"
+          "width": "60%", 
+          "paddingLeft": "2px"
       },
       "children": ["flex-layout.row#countries"]
   },
@@ -47,7 +47,8 @@
       "props": {
           "horizontalAlign": "left",
           "verticalAlign": "middle",
-          "preventVerticalStretch": true
+          "preventVerticalStretch": true,
+          "padding-right": "50px"
       },
       "children": [
           "flex-layout.row#country-brasil",
